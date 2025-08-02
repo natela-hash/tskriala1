@@ -1,3 +1,3 @@
-function changeLanguage() {
-    alert("ენის გადართვა მომავალში დაემატება");
+function toggleLanguage() {
+  alert("Language switch is not active yet. This will be implemented soon.");
 }

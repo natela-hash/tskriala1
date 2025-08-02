@@ -1,41 +1,48 @@
 <!DOCTYPE html>
 <html lang="ka">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>წკრიალა ხელი</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>წკრიალა ხელი</title>
+  <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
-    <header>
-        <h1>სისუფთავე ჩვენი სტილია</h1>
-        <nav>
-            <ul>
-                <li><a href="#services">სერვისები</a></li>
-                <li><a href="#prices">ფასები</a></li>
-                <li><a href="#about">ჩვენ შესახებ</a></li>
-                <li><a href="#contact">კონტაქტი</a></li>
-            </ul>
-        </nav>
-        <button onclick="changeLanguage()">EN/KA</button>
-    </header>
-    <section id="services">
-        <h2>სერვისები</h2>
-        <p>დასუფთავება, დეზინფექცია, გენერალური წმენდა</p>
-    </section>
-    <section id="prices">
-        <h2>ფასები</h2>
-        <p>დამოკიდებულია მომსახურებაზე, გთხოვთ დაგვიკავშირდეთ</p>
-    </section>
-    <section id="about">
-        <h2>ჩვენს შესახებ</h2>
-        <p>წკრიალა ხელი გთავაზობთ პროფესიონალურ და სწრაფ დასუფთავების სერვისს.</p>
-    </section>
-    <section id="contact">
-        <h2>კონტაქტი</h2>
-        <p>ტელეფონი: +995592189339</p>
-        <a href="https://wa.me/995592189339" target="_blank">WhatsApp-ზე მიწერა</a>
-    </section>
-    <script src="script.js"></script>
+  <header class="hero">
+    <div class="overlay">
+      <h1>სისუფთავე ჩვენი სტილია</h1>
+      <nav>
+        <ul>
+          <li><a href="#services">სერვისები</a></li>
+          <li><a href="#prices">ფასები</a></li>
+          <li><a href="#about">ჩვენ შესახებ</a></li>
+          <li><a href="#contact">კონტაქტი</a></li>
+        </ul>
+      </nav>
+      <button onclick="toggleLanguage()">EN/KA</button>
+    </div>
+  </header>
+
+  <section id="services">
+    <h2>სერვისები</h2>
+    <p>გენერალური, საოფისე და ყოველდღიური დასუფთავება.</p>
+  </section>
+
+  <section id="prices">
+    <h2>ფასები</h2>
+    <p>ფასები დამოკიდებულია მომსახურების ტიპზე. დაგვიკავშირდით ზუსტ შეთავაზებაზე.</p>
+  </section>
+
+  <section id="about">
+    <h2>ჩვენ შესახებ</h2>
+    <p>ჩვენი გუნდი გაწვდის პროფესიონალურ დასუფთავების მომსახურებას, სწრაფად და ხარისხიანად.</p>
+  </section>
+
+  <section id="contact">
+    <h2>კონტაქტი</h2>
+    <p>ტელეფონი: +995592189339</p>
+    <a class="whatsapp-button" href="https://wa.me/995592189339" target="_blank">WhatsApp-ზე მიწერა</a>
+  </section>
+
+  <script src="script.js"></script>
 </body>
 </html>

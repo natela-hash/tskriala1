@@ -1,22 +1,49 @@
 body {
-    font-family: sans-serif;
-    margin: 0;
-    padding: 0;
-    background: #fff;
-    color: #333;
+  margin: 0;
+  font-family: "Arial", sans-serif;
+  background: #f9f9f9;
+  color: #333;
 }
-header {
-    background: #222;
-    color: white;
-    padding: 1rem;
-    text-align: center;
+.hero {
+  background: url('https://images.unsplash.com/photo-1581579185169-9a61bc04ef08?auto=format&fit=crop&w=1200&q=80') center/cover no-repeat;
+  height: 100vh;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.overlay {
+  background-color: rgba(0,0,0,0.6);
+  padding: 2rem;
+  width: 100%;
 }
 nav ul {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    gap: 1rem;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  list-style: none;
+  padding: 0;
+}
+nav a {
+  color: white;
+  text-decoration: none;
 }
 section {
-    padding: 2rem;
+  padding: 3rem 2rem;
+}
+.whatsapp-button {
+  background-color: #25d366;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 4px;
+  display: inline-block;
+  margin-top: 1rem;
+}
+@media screen and (max-width: 600px) {
+  nav ul {
+    flex-direction: column;
+    gap: 1rem;
+  }
 }
