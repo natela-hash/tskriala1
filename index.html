@@ -1,46 +1,72 @@
 <!DOCTYPE html>
 <html lang="ka">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>წკრიალა ხელი</title>
-  <link rel="stylesheet" href="style.css"/>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header class="hero">
     <div class="overlay">
-      <h1>სისუფთავე ჩვენი სტილია</h1>
+      <h1>სისუფთავე ჩვენ ხელშია</h1>
       <nav>
         <ul>
           <li><a href="#services">სერვისები</a></li>
-          <li><a href="#prices">ფასები</a></li>
           <li><a href="#about">ჩვენ შესახებ</a></li>
           <li><a href="#contact">კონტაქტი</a></li>
         </ul>
       </nav>
-      <button onclick="toggleLanguage()">EN/KA</button>
+      <button onclick="toggleLanguage()">EN / KA</button>
     </div>
   </header>
 
   <section id="services">
     <h2>სერვისები</h2>
-    <p>გენერალური, საოფისე და ყოველდღიური დასუფთავება.</p>
-  </section>
-
-  <section id="prices">
-    <h2>ფასები</h2>
-    <p>ფასები დამოკიდებულია მომსახურების ტიპზე. დაგვიკავშირდით ზუსტ შეთავაზებაზე.</p>
+    <div class="service-block">
+      <h3>გენერალური დასუფთავება</h3>
+      <p>3 – 9 ლარი</p>
+      <video controls>
+        <source src="video_general.mp4" type="video/mp4">
+      </video>
+    </div>
+    <div class="service-block">
+      <h3>რემონტის შემდგომი დასუფთავება</h3>
+      <p>6 – 25 ლარი</p>
+      <video controls>
+        <source src="video_post_renovation.mp4" type="video/mp4">
+      </video>
+    </div>
+    <div class="service-block">
+      <h3>რბილი ავეჯის ქიმწმენდა</h3>
+      <p>კვ.მ. — 11 ლარი</p>
+      <video controls>
+        <source src="video_chem_clean.mp4" type="video/mp4">
+      </video>
+    </div>
+    <div class="service-block">
+      <h3>ვიტრაჟების წმენდა / ალპინისტები</h3>
+      <p>ფასი შეთანხმებით</p>
+      <video controls>
+        <source src="video_windows.mp4" type="video/mp4">
+      </video>
+    </div>
   </section>
 
   <section id="about">
     <h2>ჩვენ შესახებ</h2>
-    <p>ჩვენი გუნდი გაწვდის პროფესიონალურ დასუფთავების მომსახურებას, სწრაფად და ხარისხიანად.</p>
+    <p>ჩვენი კომპანია უზრუნველყოფს ეკო-მეგობრულ დასუფთავების სერვისს თბილისში და მის შემოგარენში.</p>
   </section>
 
   <section id="contact">
-    <h2>კონტაქტი</h2>
+    <h2>დაგვიკავშირდით</h2>
     <p>ტელეფონი: +995592189339</p>
-    <a class="whatsapp-button" href="https://wa.me/995592189339" target="_blank">WhatsApp-ზე მიწერა</a>
+    <p>ელ.ფოსტა: <a href="mailto:tskrialahand@gmail.com">tskrialahand@gmail.com</a></p>
+    <a class="whatsapp" href="https://wa.me/995592189339" target="_blank">WhatsApp</a>
+    <div class="social-links">
+      <a href="https://www.instagram.com/tskrialahand/" target="_blank">Instagram</a>
+      <a href="https://www.facebook.com/p/Tskriala-hand-წკრიალა-ხელი-დასუფთავების-კომპანია-61574398816662/" target="_blank">Facebook</a>
+    </div>
   </section>
 
   <script src="script.js"></script>

@@ -1,27 +1,20 @@
+
 body {
   margin: 0;
-  font-family: "Arial", sans-serif;
-  background: #f9f9f9;
+  font-family: Arial, sans-serif;
+  background-color: #e0f0ff;
   color: #333;
 }
 .hero {
-  background: url('https://images.unsplash.com/photo-1581579185169-9a61bc04ef08?auto=format&fit=crop&w=1200&q=80') center/cover no-repeat;
-  height: 100vh;
+  background-color: #007BFF;
   color: white;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-}
-.overlay {
-  background-color: rgba(0,0,0,0.6);
   padding: 2rem;
-  width: 100%;
+  text-align: center;
 }
 nav ul {
   display: flex;
   justify-content: center;
-  gap: 2rem;
+  gap: 1rem;
   list-style: none;
   padding: 0;
 }
@@ -30,20 +23,27 @@ nav a {
   text-decoration: none;
 }
 section {
-  padding: 3rem 2rem;
+  padding: 2rem;
 }
-.whatsapp-button {
+.service-block {
+  margin-bottom: 2rem;
+}
+video {
+  max-width: 100%;
+  height: auto;
+  margin-top: 0.5rem;
+}
+.whatsapp {
   background-color: #25d366;
   color: white;
-  padding: 10px 20px;
+  padding: 10px 15px;
   text-decoration: none;
   border-radius: 4px;
   display: inline-block;
   margin-top: 1rem;
 }
-@media screen and (max-width: 600px) {
-  nav ul {
-    flex-direction: column;
-    gap: 1rem;
-  }
+.social-links a {
+  margin-right: 1rem;
+  color: #007BFF;
+  text-decoration: none;
 }
