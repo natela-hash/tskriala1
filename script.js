@@ -1,3 +1,1 @@
-function toggleLanguage() {
-  alert("ენის გადართვა მალე დაემატება");
-}
+function toggleLanguage() { window.location.href = 'index-en.html'; }
